@@ -6,11 +6,11 @@ import time
 
 # Hugging Face API for image generation
 IMAGE_API_URL = "https://api-inference.huggingface.co/models/openskyml/dalle-3-xl"
-IMAGE_HEADERS = {"Authorization": "Bearer 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"}
+IMAGE_HEADERS = {"Authorization": "Bearer "}
 
 # Hugging Face API for speech recognition
 SPEECH_API_URL = "https://api-inference.huggingface.co/models/jonatasgrosman/wav2vec2-large-xlsr-53-english"
-SPEECH_HEADERS = {"Authorization": "Bearer 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"}
+SPEECH_HEADERS = {"Authorization": "Bearer "}
 recognizer = sr.Recognizer()
 
 def query_image(payload):
