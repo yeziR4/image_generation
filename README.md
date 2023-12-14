@@ -10,4 +10,9 @@ GO to hugging face and create an account
 
 create a new token 
 
-input your token into the model line it the code 
+clone the repository 
+
+
+find the line  "Bearer" and place your token beside it 
+
+then run the code 
